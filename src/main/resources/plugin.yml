@@ -1,0 +1,15 @@
+name: SimpleStartingKits
+version: '${project.version}'
+main: org.betterservernetwork.simplestartingkits.SimpleStartingKits
+api-version: '1.18'
+author: BetterServerNetwork
+commands:
+  kit:
+    description: Command for editing and giving starting kits.
+    usage: /kit (edit|give <player>)
+    permission: simplestartingkits
+
+permissions:
+  simplestartingkits:
+    default: op
+    description: Gives full access to the kit command.
